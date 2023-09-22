@@ -7,10 +7,10 @@ const connectWithdb = () => {
       useNewUrlParser: true,
       useUnifiedTopology: true,
     })
-    .then(console.log("database connected successfully "))
+    .then(console.log("DATABASE CONNECTED SUCCESSFULLY "))
     .catch((error) => {
       console.log(error);
-      console.log("DB connection failed");
+      console.log("DB CONNECTION FAILED");
       process.exit(1);
     });
 };
